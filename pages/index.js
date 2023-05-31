@@ -21,7 +21,7 @@ export default function Home() {
           {user?.map((e, i) => (
             <div key={i} className={styles.card}>
               <div className={styles.card_wrapper}>
-                <div className={styles.logo}><Image width={500} height={500} src={`/image/${e.name}`}></Image></div>
+                <div className={styles.logo}><Image width={500} height={500} src={`/image/${e.name}.jpg`}></Image></div>
                 <div className={styles.content}>
                   <div className={styles.info}>
                     <div className={styles.main_info}>
