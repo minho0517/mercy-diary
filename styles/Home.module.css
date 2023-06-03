@@ -124,12 +124,13 @@
 @media screen and (max-width:750px) {
   .card {
     height: auto;
-    width: 95%;
+    width: 100%;
     max-width: 500px;
   }
   .card_wrapper {
     flex-direction: column;
     height: 100%;
+    margin: 15px;
   }
   .content {
     width: 100%;
@@ -142,5 +143,8 @@
   .logo > img {
     width: 100%;
     height: auto;
+  }
+  .info {
+    padding: 15px;
   }
 }
