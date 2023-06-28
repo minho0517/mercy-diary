@@ -32,8 +32,8 @@ export default function Love() {
                                 <div className={styles.common_button}>
                                     <button className={styles.commonBtn}><FontAwesomeIcon icon={faBell}/></button>
                                     <button className={styles.commonBtn}><FontAwesomeIcon icon={faHeart}/> </button>
-                                    <a href={`tel:${newUser[0]?.tel}`} className={styles.commonBtn}><FontAwesomeIcon icon={faMobileScreenButton}/></a>
-                                    <a href={`mailto:${newUser[0]?.email}?subject=당신을 사랑합니다&body=당신은 사랑받기 위해 태어난 사람`} className={styles.commonBtn}><FontAwesomeIcon icon={faPaperPlane}/></a>
+                                    <button className={styles.commonBtn}><a href={`tel:${newUser[0]?.tel}`}><FontAwesomeIcon icon={faMobileScreenButton}/></a></button>
+                                    <button className={styles.commonBtn}><a href={`mailto:${newUser[0]?.email}?subject=당신을 사랑합니다&body=당신은 사랑받기 위해 태어난 사람`}><FontAwesomeIcon icon={faPaperPlane}/></a></button>
                                 </div>
                                 <Link href={`/life/${newUser[0]?.name}`} className={styles.storyBtn}>일상스토리</Link>
                             </div>

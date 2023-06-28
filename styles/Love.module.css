@@ -110,6 +110,9 @@
     justify-content: center;
     align-items: center;
 }
+.commonBtn > a {
+    color: #222;
+}
 .commonBtn:hover {
     background-color: rgba(0,0,0, 0.1);
 }
@@ -157,9 +160,10 @@
         font-size: 20px;
     }
     .commonBtn {
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
         font-size: 22px;
+        margin: 0 3px;
     }
     .storyBtn {
         font-size: 14px;
