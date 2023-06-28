@@ -1,0 +1,18 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.title {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #efefef;
+}
+
+@media screen and (max-width: 750px) {
+    .title {
+        font-size: 25px;
+    }
+}

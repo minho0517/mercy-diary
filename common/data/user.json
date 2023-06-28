@@ -1,16 +1,22 @@
 [
     {
         "name" : "김규진",
-        "nickname" : "신라면러버",
-        "introduction" : "내 이름은 김규진, 코난이지. 오늘도 난 아침에 신라면을 먹으며 러시아행 비행기표를 예매했지"
+        "nickname" : "샐리러버",
+        "introduction" : "내 이름은 김규진, 코난이지. 오늘도 난 아침에 신라면을 먹으며 러시아행 비행기표를 예매했지",
+        "email" : "2027.kyujin.kim@haven.or.kr",
+        "tel" : "010-3547-6951"
     },
     {
         "name" : "모예찬",
         "nickname" : "예삐",
-        "introduction" : "안녕하세요, 모예찬입니다"
+        "introduction" : "안녕하세요, 모예찬입니다",
+        "email" : "2027.yechan.mo@haven.or.kr",
+        "tel" : "010-9649-9376"
     },    {
         "name" : "이지한",
         "nickname" : "분산투자전문",
-        "introduction" : "내 이름은 이지한, 코난이지. 오늘도 난 아침에 신라면을 먹으며 러시아행 비행기표를 예매했지"
+        "introduction" : "돼지한 저금통 꿀꺽",
+        "email" : "2027.jihan.lee@haven.or.kr",
+        "tel" : "010-8921-7960"
     }
 ]

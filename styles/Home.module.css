@@ -13,19 +13,6 @@
   width: 93%;
   max-width: 700px;
 }
-.header {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0;
-}
-.title {
-  font-family: 'Pacifico', cursive;
-  font-size: 50px;
-  color: #efefef;
-}
-
 .card {
   box-shadow: 0 0 30px 0 rgba(0,0,0, 0.1);
   border-radius: 15px;
@@ -137,7 +124,7 @@
     width: 100%;
   }
   .storyBtn {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
   }
   .logo {
@@ -152,11 +139,9 @@
   .info {
     padding: 15px;
   }
-  .title {
-    font-size: 25px;
-  }
   .name {
     font-size: 20px;
+    font-weight: 900;
   }
   .nickname {
     font-size: 20px;
