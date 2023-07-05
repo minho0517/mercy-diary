@@ -4,7 +4,8 @@ import Image from 'next/image'
 import { useRouter } from "next/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell, faHeart, faPaperPlane } from "@fortawesome/free-regular-svg-icons";
-import { faMobileButton, faMobileScreenButton, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faMobileScreenButton } from "@fortawesome/free-solid-svg-icons";
+import { LoveHistoty } from "@/components/History/History";
 
 export default function Love() {
 
@@ -40,7 +41,7 @@ export default function Love() {
                         </div>
                     </div>
                 </div>
-                <div className={styles.history}></div>
+                <LoveHistoty />
             </div>
         </div>
     )

@@ -113,9 +113,9 @@
 .commonBtn > a {
     color: #222;
 }
-.commonBtn:hover {
+/* .commonBtn:hover {
     background-color: rgba(0,0,0, 0.1);
-}
+} */
 .storyBtn {
     border: none;
     background-color: #ff6781;
@@ -164,6 +164,9 @@
         height: 32px;
         font-size: 22px;
         margin: 0 2px;
+    }
+    .button_group {
+        margin-top: 10px;
     }
     .storyBtn {
         font-size: 14px;
